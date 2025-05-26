@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "tg-javarush"
+version = "0.1.0"
+description = ""
+authors = ["a.getashvili <artik1098@mail.ru>"]
+readme = "README.md"
+packages = [{include = "tg_javarush"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+python-telegram-bot = "^22.1"
+openai = "^1.82.0"
+python-dotenv = "^1.1.0"
+requests = "^2.32.3"
+pillow = "^11.2.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
