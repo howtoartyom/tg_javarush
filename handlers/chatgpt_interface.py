@@ -25,7 +25,7 @@ async def gpt_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 async def gpt_start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     try:
-        image_path = "images/chatgpt.png"
+        image_path = "data/images/chatgpt.png"
         if os.path.exists(image_path):
             with open(image_path, 'rb') as photo:
                 if update.callback_query:
